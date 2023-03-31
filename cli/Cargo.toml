@@ -4,17 +4,16 @@
 name = "deno"
 version = "1.32.1"
 authors.workspace = true
-default-run = "deno"
 edition.workspace = true
 exclude = ["tests/testdata/npm/registry/*"]
 license.workspace = true
 repository.workspace = true
-description = "Provides the deno executable"
+description = "Deno CLI published as a lib for the need of the windmill.dev project. Not guaranteed to be maintained"
 
-[[bin]]
-name = "deno"
-path = "main.rs"
-doc = false
+[lib]
+name = "deno_cli_lib"
+path = "lib.rs"
+
 
 [[bench]]
 name = "deno_bench"
