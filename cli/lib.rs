@@ -1,3 +1,5 @@
+pub use deno_node;
+
 pub mod args;
 pub mod auth_tokens;
 pub mod cache;
@@ -9,7 +11,7 @@ pub mod graph_util;
 pub mod http_util;
 pub mod js;
 pub mod lsp;
-pub mod pub module_loader;
+pub mod module_loader;
 pub mod napi;
 pub mod node;
 pub mod npm;
