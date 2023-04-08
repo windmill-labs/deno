@@ -2,7 +2,7 @@
 
 [package]
 name = "deno_cli_lib_windmill"
-version = "0.104.1"
+version = "0.104.2"
 authors.workspace = true
 edition.workspace = true
 license.workspace = true

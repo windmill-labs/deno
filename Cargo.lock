@@ -742,7 +742,7 @@ dependencies = [
 
 [[package]]
 name = "deno_cli_lib_windmill"
-version = "0.104.1"
+version = "0.104.2"
 dependencies = [
  "async-trait",
  "atty",
