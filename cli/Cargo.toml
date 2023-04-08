@@ -1,15 +1,17 @@
 # Copyright 2018-2023 the Deno authors. All rights reserved. MIT license.
 
 [package]
-name = "deno"
-version = "1.32.3"
+name = "deno_cli_lib_windmill"
+version = "0.104.1"
 authors.workspace = true
-default-run = "deno"
 edition.workspace = true
-exclude = ["tests/testdata/npm/registry/*"]
 license.workspace = true
 repository.workspace = true
-description = "Provides the deno executable"
+description = "Deno cli lib for the needs of windmill"
+
+[lib]
+name = "deno_cli_lib_windmill"
+path = "lib.rs"
 
 [[bin]]
 name = "deno"
